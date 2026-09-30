@@ -10,9 +10,7 @@
     <meta property="og:description" content="O método por trás dos vídeos que param o scroll." />
     <meta property="og:image" content="logo.png" />
     <link rel="icon" type="image/png" href="logo.png" />
-    <!-- O GitHub Pages não aceita cabeçalhos de segurança, então a proteção de scripts vai aqui.
-         Na Vercel/Netlify, vercel.json e public/_headers completam o resto. -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; media-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests" />
+    <!-- A proteção de scripts (Content-Security-Policy) é adicionada só na versão publicada: ver vite.config.js -->
     <meta name="referrer" content="strict-origin-when-cross-origin" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
